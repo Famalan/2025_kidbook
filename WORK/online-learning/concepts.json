@@ -1,0 +1,94 @@
+{
+    "concepts": [
+        {
+            "id": "mooc",
+            "name": "MOOC-платформы",
+            "description": "Массовые открытые онлайн-курсы",
+            "related": ["online_courses", "video_lectures", "interactive_assignments"]
+        },
+        {
+            "id": "online_courses",
+            "name": "Онлайн-курсы",
+            "description": "Структурированные образовательные программы в интернете",
+            "related": ["mooc", "educational_platforms", "certificates"]
+        },
+        {
+            "id": "video_lectures",
+            "name": "Видеолекции",
+            "description": "Записанные выступления преподавателей",
+            "related": ["online_courses", "educational_content"]
+        },
+        {
+            "id": "interactive_assignments",
+            "name": "Интерактивные задания",
+            "description": "Упражнения с автоматической проверкой",
+            "related": ["online_tests", "progress_tracking"]
+        },
+        {
+            "id": "online_communities",
+            "name": "Онлайн-сообщества",
+            "description": "Группы людей, объединенных целью обучения",
+            "related": ["forums", "mentoring"]
+        },
+        {
+            "id": "educational_platforms",
+            "name": "Образовательные платформы",
+            "description": "Сайты для размещения учебных материалов",
+            "related": ["mooc", "online_courses"]
+        },
+        {
+            "id": "time_management",
+            "name": "Тайм-менеджмент",
+            "description": "Управление временем при онлайн-обучении",
+            "related": ["self_motivation", "progress_tracking"]
+        },
+        {
+            "id": "self_motivation",
+            "name": "Самомотивация",
+            "description": "Способность поддерживать интерес к обучению",
+            "related": ["time_management", "progress_tracking"]
+        },
+        {
+            "id": "progress_tracking",
+            "name": "Отслеживание прогресса",
+            "description": "Мониторинг успеваемости и достижений",
+            "related": ["certificates", "interactive_assignments"]
+        },
+        {
+            "id": "certificates",
+            "name": "Сертификаты",
+            "description": "Документы, подтверждающие прохождение курса",
+            "related": ["online_courses", "progress_tracking"]
+        },
+        {
+            "id": "forums",
+            "name": "Форумы",
+            "description": "Площадки для обсуждения учебных вопросов",
+            "related": ["online_communities", "mentoring"]
+        },
+        {
+            "id": "mentoring",
+            "name": "Менторство",
+            "description": "Поддержка опытными наставниками",
+            "related": ["online_communities", "forums"]
+        },
+        {
+            "id": "internet_safety",
+            "name": "Интернет-безопасность",
+            "description": "Защита данных при онлайн-обучении",
+            "related": ["digital_literacy", "technical_requirements"]
+        },
+        {
+            "id": "digital_literacy",
+            "name": "Цифровая грамотность",
+            "description": "Навыки работы с цифровыми технологиями",
+            "related": ["internet_safety", "technical_requirements"]
+        },
+        {
+            "id": "technical_requirements",
+            "name": "Технические требования",
+            "description": "Необходимое оборудование и ПО",
+            "related": ["internet_safety", "digital_literacy"]
+        }
+    ]
+}
